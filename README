@@ -1,0 +1,12 @@
+GNUardo's overlay
+=================
+
+Contents
+--------
+* Fresh ebuilds waiting for addition to the official portage tree.
+* Packages that don't fit to the official portage tree.
+
+Manual installation:
+git clone https://github.com/ninioperdido/overlay gnuardo
+echo 'PORTDIR_OVERLAY="$PWD/gnuardo"' >> /etc/portage/make.conf
+
